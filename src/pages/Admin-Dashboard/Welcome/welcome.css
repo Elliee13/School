@@ -1,0 +1,19 @@
+.container {
+    line-height: 1rem;
+    margin-bottom: 20px;
+}
+
+.WN 
+{
+    color: blue;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+
+.PR
+{
+    color: rgb(39, 39, 39);
+    font-weight: 550;
+    font-size: 20px;
+}

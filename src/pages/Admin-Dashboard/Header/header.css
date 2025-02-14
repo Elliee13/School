@@ -1,0 +1,212 @@
+
+.wrapper {
+  display: flex;
+  align-items: center;          /* Vertically centers the items */
+  justify-content: space-between; /* Spreads items evenly */
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #03009c;
+}
+
+.logo h1 {
+  padding-left: 10px;
+  line-height: 1;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 40px;
+  background: #ffffff;
+  flex-grow: 1;
+  max-width: 400px;
+  margin-left: 50px;
+  margin-right: 15px;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.search-bar i {
+  background-color: #03009c;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+form{
+  width: 100dvw;
+}
+
+form h1
+{
+  margin: 0px 0px 0px 0px;
+}
+
+.search-bar input {
+  font-size: 15px;
+  color: #000000;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex-grow: 1;
+}
+
+.Date {
+  display: flex;
+  align-items: center;
+  width: 840px;
+}
+
+.date {
+  color: #000000;
+  background: rgb(255, 255, 255);
+  padding:5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  max-width: 400px;
+  box-shadow: 1px 1px 2px grey;
+  margin-left: 25px;
+}
+
+.date p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.bell {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #03009c;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 40px;
+  background-color: #ffffff;
+  padding: 5px 60px 5px 20px;
+  border-radius: 25px 0px 0px 25px;
+  line-height: 1.2;
+  left: 190px;
+  border: 2px solid #03009c;
+}
+
+.account p {
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.Admin {
+  opacity: 70%;
+}
+
+.circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 40px ;
+  background-color: #ffffff;
+  align-items: center;
+  left: 93%;  /* Position the circle near the left edge */
+  border: 4px solid #21b4f4;  /* Optional: Add a border to match the account box */
+  max-width: 400px;
+  position: absolute;
+}
+
+.circle img {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* This makes the image itself a circle */
+}
+
+.menucontainer
+{
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 7px 0px 7px 0px;
+  border-radius: 40px;
+  margin: 0px 30%;
+  margin-top: -10px;
+  width: 460px;
+  margin-left: 450px;
+  box-shadow: 1px 1px 2px grey;
+}
+
+
+.menu ul {
+  margin: 0;
+  background-color: #e0e0e0;
+  border-radius: 40px;
+  display: flex;
+  list-style: none;
+  padding: 5px;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000000;
+  background-color:#e0e0e0;
+  font-size: 15px;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 0px;
+  border-width: 130px;
+}
+
+.menu li a:hover {
+  background-color: #03009c;
+  color: #e0e0e0;
+  border-radius: 40px;
+  border-width: 130px;
+  position: relative;
+}
+
+.searchbutton
+{
+  background-color: #03009c;
+  border-radius: 25%;
+}
+
+.date:hover, .account:hover, .circle img:hover
+{
+  cursor: pointer;
+}
+
+.searchbutton:hover
+{
+  background-color: #aba9ff;
+  cursor: pointer;
+}
+
+.bell:hover
+{
+  cursor: pointer;
+  opacity: 50%;
+}
+
+

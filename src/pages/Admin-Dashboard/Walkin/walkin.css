@@ -1,0 +1,97 @@
+.walkincontainertotal
+{
+    padding: 10px;
+    margin-top: 0px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    width: 410px;
+    line-height: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px grey;
+    display: row;
+}
+
+.walkincontainertext {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+}
+
+
+.walkinnumber
+{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-bottom: 28px;
+    padding-top: 28px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+.walkintext
+{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    font-weight: 500;
+    padding-top: 8px;
+    background-color: #FFFFFF;
+}
+
+.walkindetails
+{
+    font-size: 0.85rem;
+    padding-left: 20px;
+    padding-right: 5px;
+    line-height: 1.25rem;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    width: 275px;
+}
+
+.walkinlogo
+{
+    padding: 8px 10px;
+    background-color: rgb(238, 237, 237);
+    border-radius: 100%;
+}
+
+.totalbars2 {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    width: 140px; 
+    height: 100px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 0px 10px; 
+}
+
+.newbox3, .newbox4 {
+    position: absolute;
+    bottom: 0; 
+    border-radius: 5px;
+    width: 45px; 
+}
+
+.newbox3 {
+    background-color: #1E73BE; 
+    height: 0%; 
+    z-index: 1;
+}
+
+.newbox4 {
+    background-color: #4DA8F3; 
+    border: solid 2px #FFFFFF;
+    height: 0%; 
+    z-index: 2; 
+    left: 40px; 
+    bottom: -1px;
+}
+
+.walkintotalcontent
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+}
+
